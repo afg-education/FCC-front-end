@@ -1,0 +1,37 @@
+#quote-box {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-self: center;
+}
+
+#text {
+  text-align: left;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0 1.2rem;
+}
+
+#author {
+  text-align: right;
+  width: 100%;
+  padding: 1.2rem;
+}
+
+#author::before {
+  content: "-";
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1.2rem;
+}
