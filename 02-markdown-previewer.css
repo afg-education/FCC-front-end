@@ -1,18 +1,3 @@
-* {
-  display: block;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  /*border: 1px solid #000;*/
-}
-
-head,
-title,
-.INLINE_PEN_STYLESHEET_ID,
-#INLINE_PEN_JS_ID {
-  display: none;
-}
-
 html {
   font-size: 10px;
 }
