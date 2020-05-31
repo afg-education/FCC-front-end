@@ -1,0 +1,66 @@
+* {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid #000;*/
+}
+
+head,
+title,
+.INLINE_PEN_STYLESHEET_ID,
+#INLINE_PEN_JS_ID {
+  display: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: left;
+  color: #f8f8f2;
+  background-color: #e6db74;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.container {
+  box-shadow: 4px 4px 0px 1px rgba(117, 113, 94, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+#editor-pane {
+  flex-basis: 40%;
+  height: 80vh;
+}
+
+#preview {
+  flex-basis: 55%;
+}
+
+#preview::before,
+header {
+  content: "Preview";
+  background: #f92672;
+  padding: 0.5rem 2rem;
+}
+
+#editor,
+#preview {
+  background: #272822;
+  width: 100%;
+  color: #f8f8f2;
+  border: 0 none;
+  margin: 0;
+  outline: 0 none;
+  height: 100%;
+}
