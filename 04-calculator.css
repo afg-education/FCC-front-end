@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #ccc;
+}
+
+#buttons {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+#numbers,
+#operators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+
+#numbers {
+  width: 200px;
+}
+
+#operators {
+  width: 150px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0.2rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50%;
+  background: #c9f9a9;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #a9e909;
+}
+
+#display {
+  align-self: stretch;
+  font-size: 1.6rem;
+  background: #333;
+  color: #f4f4f4;
+  padding: 0.5rem 1rem;
+  text-align: right;
+  box-sizing: border-box;
+}
