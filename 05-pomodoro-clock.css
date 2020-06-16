@@ -1,0 +1,30 @@
+* {
+  border: 1px solid #ccc;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#settings,
+#clock,
+#controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 500px;
+}
+
+#break-buttons,
+#session-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 150px;
+}
