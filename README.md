@@ -8,5 +8,5 @@ projects are live on codepen here:
 1.
 2.
 3. [Drum Machine](https://codepen.io/afgonullu/pen/oNbNwby)
-4.
+4. [Calculator](https://codepen.io/afgonullu/pen/PoZZJXp)
 5. [Pomodoro Clock](https://codepen.io/afgonullu/pen/xxZOdXz)
