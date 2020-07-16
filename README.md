@@ -5,7 +5,7 @@ See my full FreeCodeCamp profile at: https://www.freecodecamp.org/afgonullu
 
 projects are live on codepen here:
 
-1.
+1. [Random Quote Generator](https://codepen.io/afgonullu/pen/RwWdWxy)
 2.
 3. [Drum Machine](https://codepen.io/afgonullu/pen/oNbNwby)
 4. [Calculator](https://codepen.io/afgonullu/pen/PoZZJXp)
